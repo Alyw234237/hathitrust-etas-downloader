@@ -38,9 +38,9 @@ To get the SAML authentication cookie, do the following:
 7. You may need to scroll through a few pages on the book view for items to show up here.
 8. In the "Headers" tab, find "Cookie:"
 9. Copy the contents.
- 1. Will be long and look something like this (but can vary):
-  1. "\_saml\_idp =...; HT\_AUTHTYPE=shibboleth; HTexpiration=..."
- 2. Don’t get “Set-Cookie:”—check a different item if you see that.
+  1. Will be long and look something like this (but can vary):
+    1. "\_saml\_idp =...; HT\_AUTHTYPE=shibboleth; HTexpiration=..."
+  2. Don’t get “Set-Cookie:”—check a different item if you see that.
 10. Put the copied cookie string into the "cookie" variable in the script on line 21.
 
 Once you've done that, the script should now be able to download the book.
