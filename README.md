@@ -33,11 +33,11 @@ To get the SAML authentication cookie, do the following:
 
 1. After checking out the book, make sure you're on the page where you can view/scroll through it.
 2. Open Chrome developer tools on the page.
-3. Press Ctrl+Shift+I OR right-click the page and click "Inspect" OR click the Chrome hamburger menu, click "More tools", and click "Developer tools".
+    1. Press Ctrl+Shift+I OR right-click the page and click "Inspect" OR click the Chrome hamburger menu, click "More tools", and click "Developer tools".
 4. Go to the "Network" tab in Chrome developer tools.
 5. Close out of the console if it's open (it may be covering things).
 6. Under the "Name" column, click an image.
-7. You may need to scroll through a few pages on the book view for items to show up here.
+    1. You may need to scroll through a few pages on the book view for items to show up here.
 8. In the "Headers" tab, find "Cookie:"
 9. Copy the contents.
     1. Will be long and look something like this (but can vary):
