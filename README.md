@@ -15,7 +15,7 @@ Script usage (in a terminal or command prompt):
 python hathi_downloader.py <book_id> <book_title> <first_page> <last_page>
 ```
 
-<book\_id> is the 'id' parameter in the URL for the book after checking it out (e.g., "mdp.###...", "uc1.###...").
+<book\_id> is the 'id' parameter in the URL for the book after checking it out (e.g., "mdp.###...", "uc1.###...", etc.).
 
 <book\_title> will be the name of the folder the book is downloaded into. The path for the folder will be "$home/$book\_title" (where $home is the home directory on your machine).
 
