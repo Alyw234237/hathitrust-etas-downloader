@@ -15,7 +15,11 @@ Script usage (in a terminal or command prompt):
 python hathi_downloader.py <book_id> <book_title> <first_page> <last_page>
 ```
 
+<book\_id> is the 'id' parameter in the URL for the book after checking it out (e.g., "mdp.###...", "uc1.###...").
+
 <book\_title> will be the name of the folder the book is downloaded into. The path for the folder will be "$home/$book\_title" (where $home is the home directory on your machine).
+
+<first_page> and <last_page> refer to the sequence page numbers for the book (prefixed with '#' on HathiTrust).
 
 Python 3 must be installed and added to the PATH in order for this script to work. Required Python modules (e.g., [imghdr](https://docs.python.org/3/library/imghdr.html), [http.cookies](https://docs.python.org/3/library/http.cookies.html), any others) are also needed if not already installed via pip.
 
