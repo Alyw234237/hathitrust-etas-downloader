@@ -17,7 +17,7 @@ python hathi_downloader.py <book_id> <book_title> <first_page> <last_page>
 
 <book\_title> will be the name of the folder the book is downloaded into. The path for the folder will be "$home/$book\_title" (where $home is the home directory on your machine).
 
-Python 3 must be installed and added to the PATH in order for this script to work. Required Python modules (e.g., imghdr, SimpleCookie) are also needed.
+Python 3 must be installed and added to the PATH in order for this script to work. Required Python modules (e.g., [imghdr](https://docs.python.org/3/library/imghdr.html), [http.cookies](https://docs.python.org/3/library/http.cookies.html), others) are also needed if not already installed via pip.
 
 **Prior to using this script to download a book, you must do the following things:**
 
