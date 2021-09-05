@@ -11,7 +11,7 @@ For a similar but unrelated project, see the [ETAS Download Helper](https://sour
 
 Script usage (in a terminal or command prompt):
 
-> python hathi\_downloader.py <book\_id> <book\_title> <first\_page> <last\_page>
+`python hathi\_downloader.py <book\_id> <book\_title> <first\_page> <last\_page>`
 
 <book\_title> will be the name of the folder the book is downloaded into. The path for the folder will be "$home/$book\_title" (where $home is the home directory on your machine).
 
@@ -39,7 +39,7 @@ To get the SAML authentication cookie, do the following:
 8. In the "Headers" tab, find "Cookie:"
 9. Copy the contents.
     1. Will be long and look something like this (but can vary):
-        1. "\_saml\_idp =...; HT\_AUTHTYPE=shibboleth; HTexpiration=..."
+        1. `\_saml\_idp =...; HT\_AUTHTYPE=shibboleth; HTexpiration=...`
     2. Don’t get “Set-Cookie:”—check a different item if you see that.
 10. Put the copied cookie string into the "cookie" variable in the script on line 21.
 
