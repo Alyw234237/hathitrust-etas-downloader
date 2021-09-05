@@ -11,7 +11,7 @@ For a similar but unrelated project, see the [ETAS Download Helper](https://sour
 
 Script usage (in a terminal or command prompt):
 
-`python hathi\_downloader.py <book\_id> <book\_title> <first\_page> <last\_page>`
+`python hathi_downloader.py <book_id> <book_title> <first_page> <last_page>`
 
 <book\_title> will be the name of the folder the book is downloaded into. The path for the folder will be "$home/$book\_title" (where $home is the home directory on your machine).
 
@@ -56,8 +56,8 @@ After the book has been downloaded, you can convert it into a PDF with a program
 If you have a problem with pages being different sizes after combining the pages into a PDF, this is because PNG and JPEG pages seem to use different pixels per inch (PPI). To fix this, you can use [ImageMagick](https://imagemagick.org/script/index.php)'s [mogrify](https://imagemagick.org/script/mogrify.php) in the book folder to normalize the PPIs via the following commands:
 
 ```
-mogrify -units "PixelsPerInch" -density 300 \*.jpg
-mogrify -units "PixelsPerInch" -density 300 \*.png
+mogrify -units "PixelsPerInch" -density 300 *.jpg
+mogrify -units "PixelsPerInch" -density 300 *.png
 ```
 
 Note that for these commands to work, ImageMagick must be installed, added to PATH, and legacy utilities (which includes mogrify) must be checked during ImageMagick setup/installation.
