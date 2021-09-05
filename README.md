@@ -15,6 +15,8 @@ Script usage (in a terminal or command prompt):
 
 <book\_title> will be the name of the folder the book is downloaded into. The path for the folder will be "$home/$book\_title" (where $home is the home directory on your machine).
 
+Python 3 must be installed and added to the PATH in order for this script to work.
+
 **Prior to using this script to download a book, you must do the following things:**
 
 1. Log in to HathiTrust ETAS with Google Chrome via your institutional credentials.
