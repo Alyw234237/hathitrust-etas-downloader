@@ -55,7 +55,7 @@ Note that the cookie expires every now and then and will need to be replaced by 
 
 ## Conversion into PDF
 
-After the book has been downloaded, you can convert it into a PDF with a program like [Adobe Acrobat Pro DC](https://www.adobe.com/acrobat/acrobat-pro.html), add bookmarks, OCR it, and do whatever else you'd like (e.g., upload to [LibGen](https://en.wikipedia.org/wiki/LibGen)!).
+After the book has been downloaded, you can convert it into a PDF with a program like [Adobe Acrobat Pro DC](https://www.adobe.com/acrobat/acrobat-pro.html), add bookmarks, OCR it, and do whatever else you'd like.
 
 ### Differing Page Sizes
 
