@@ -3,7 +3,7 @@
 
 ## Description
 
-This is a Python 3 script for downloading books on the [HathiTrust](https://www.hathitrust.org/) [Emergency Temporary Access Service](https://www.hathitrust.org/ETAS-Description) (ETAS). It downloads the pages individually one by one as image files. While it used to be possible to download PDF pages from HathiTrust ETAS, this is unfortunately no longer possible. Note that in order to download books with this script, **you must have institutional access to the HathiTrust ETAS.**
+This is a Python 3 script for downloading books on the [HathiTrust](https://www.hathitrust.org/) [Emergency Temporary Access Service](https://www.hathitrust.org/ETAS-Description) (ETAS). It downloads the pages individually one by one as image files. While it used to be possible to download PDF pages from HathiTrust ETAS, this is unfortunately no longer possible. Note that in order to download ETAS books with this script, **you must have institutional access to the HathiTrust ETAS.**
 
 For a similar but unrelated project, see the [ETAS Download Helper](https://sourceforge.net/projects/etasdownloadhelper/).
 
