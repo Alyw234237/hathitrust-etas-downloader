@@ -1,5 +1,5 @@
 
-# HathiTrust ETAS Downloader Readme
+# HathiTrust ETAS Downloader
 
 ## Description
 
