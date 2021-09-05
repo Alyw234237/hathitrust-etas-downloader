@@ -55,9 +55,10 @@ After the book has been downloaded, you can convert it into a PDF with a program
 
 If you have a problem with pages being different sizes after combining the pages into a PDF, this is because PNG and JPEG pages seem to use different pixels per inch (PPI). To fix this, you can use [ImageMagick](https://imagemagick.org/script/index.php)'s [mogrify](https://imagemagick.org/script/mogrify.php) in the book folder to normalize the PPIs via the following commands:
 
-> mogrify -units "PixelsPerInch" -density 300 \*.jpg
-> 
-> mogrify -units "PixelsPerInch" -density 300 \*.png
+```
+mogrify -units "PixelsPerInch" -density 300 \*.jpg
+mogrify -units "PixelsPerInch" -density 300 \*.png
+```
 
 Note that for these commands to work, ImageMagick must be installed, added to PATH, and legacy utilities (which includes mogrify) must be checked during ImageMagick setup/installation.
 
