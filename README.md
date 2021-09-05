@@ -47,7 +47,7 @@ To get the SAML authentication cookie, do the following:
 
 Once you've done that, the script should now be able to download the book.
 
-Note that the cookie expires every now and then (maybe once every 24 hours or so) and will need to be replaced by doing the above steps again each time it expires.
+Note that the cookie expires every now and then and will need to be replaced by doing the above steps again each time this happens.
 
 ## Conversion into PDF
 
