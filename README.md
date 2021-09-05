@@ -39,9 +39,7 @@ To get the SAML authentication cookie, do the following:
 8. In the "Headers" tab, find "Cookie:"
 9. Copy the contents.
  1. Will be long and look something like this (but can vary):
-  
-  > \_saml\_idp =...; HT\_AUTHTYPE=shibboleth; HTexpiration=...
-  
+  1. > \_saml\_idp =...; HT\_AUTHTYPE=shibboleth; HTexpiration=...
  2. Don’t get “Set-Cookie:”—check a different item if you see that.
 10. Put the copied cookie string into the "cookie" variable in the script on line 21.
 
