@@ -98,6 +98,16 @@ for page in range(first_page, last_page + 1):
           attempts += 1
           time.sleep(5)
           continue
+
+        # Make sure it's not the "image temporarily unavailable" (error code: 429 or 503) image
+        file_size = os.path.getsize(file_path)
+        if file_size == 36627 or file_size == 46865:
+          print("Error: Downloaded page appears to be the \"image temporarily unavailable\" image file.")
+          print("Retrying page in 5 seconds...")
+          os.remove(file_path)
+          time.sleep(5)
+          continue
+
       # Error if it's not a binary image file (something went wrong)
       # Note: Restricted file SVG will end up here (Content-Type: image/svg+xml, imghdr.what(): None)
       else:
