@@ -3,7 +3,7 @@
 
 ## Description
 
-This is a Python 3 script for downloading books on the [HathiTrust](https://www.hathitrust.org/) [Emergency Temporary Access Service](https://www.hathitrust.org/ETAS-Description) (ETAS). It downloads the pages individually one by one as image files. While it used to be possible to download PDF pages from HathiTrust ETAS, this is unfortunately no longer possible. Note that in order to download ETAS books with this script, **you must have institutional access to the HathiTrust ETAS.**
+This is a Python 3 script for downloading books from the [HathiTrust](https://www.hathitrust.org/) [Emergency Temporary Access Service](https://www.hathitrust.org/ETAS-Description) (ETAS). It downloads the pages individually one by one as image files (PNG or JPEG depending on the page). While it used to be possible to download PDF pages from HathiTrust ETAS, this is unfortunately no longer possible. Note that in order to download ETAS books with this script, **you must have institutional access to the HathiTrust ETAS.**
 
 For a similar but unrelated project, see the [ETAS Download Helper](https://sourceforge.net/projects/etasdownloadhelper/).
 
@@ -15,7 +15,7 @@ Script usage (in a terminal or command prompt):
 python hathi_downloader.py <book_id> <book_title> <first_page> <last_page>
 ```
 
-<book\_id> is the 'id' parameter in the URL for the book after checking it out (e.g., "mdp.###...", "uc1.###...").
+<book\_id> is the 'id' parameter in the URL for the book after checking it out (e.g., "mdp.###...", "uc1.###...", etc.).
 
 <book\_title> will be the name of the folder the book is downloaded into. The path for the folder will be "$home/$book\_title" (where $home is the home directory on your machine).
 
@@ -55,7 +55,7 @@ Note that the cookie expires every now and then and will need to be replaced by 
 
 ## Conversion into PDF
 
-After the book has been downloaded, you can convert it into a PDF with a program like [Adobe Acrobat Pro DC](https://www.adobe.com/acrobat/acrobat-pro.html), add bookmarks, OCR it, and do whatever else you'd like (e.g., upload to [LibGen](https://en.wikipedia.org/wiki/LibGen)!).
+After the book has been downloaded, you can convert it into a PDF with a program like [Adobe Acrobat Pro DC](https://www.adobe.com/acrobat/acrobat-pro.html), add bookmarks, OCR it, and do whatever else you'd like.
 
 ### Differing Page Sizes
 
